@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #2d4031;
+    color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #3e5643;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+h1, h2, p {
+    margin: 5px 0;
+}
+
+.about, .skills {
+    padding: 20px;
+    background-color: #4a6350;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.skills .icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.skills .icons img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
